@@ -1,0 +1,19 @@
+.container-contact {
+    display: flex;
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    text-align: center;
+    padding-left: 200px;
+}
+
+
+.contact-form form {
+    display: grid;
+    padding-top: 25px;
+    min-width: 500px;
+    
+}

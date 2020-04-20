@@ -1,0 +1,159 @@
+.container-about {
+    display: flex;
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+    background-color: cornflowerblue-;
+    
+}
+
+.card {
+    width: 25%;
+}
+
+.picture {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.about-info {
+    width: 75%;
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    text-align: left;
+    
+}
+
+.container-skills {
+    display: flex;
+    width: 96%;
+    max-width: 1020px !important;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    padding-right: 10%;
+    padding: 0 70px;
+    padding-top: 80px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.skills {
+    margin-top: 36px;
+    list-style: none;
+}
+
+.expand {
+    position: absolute;
+    margin: 0;
+    padding-right: 24px;
+    background: #313131;
+    display: inline-block;
+    height: 10px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px;
+}
+
+/* .bar-skills ul li em {
+    font: 15px 'opensans-bold', sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    position: relative;
+    top: -36px;
+} */
+
+.bar-skills {
+    width: 800px;
+    padding-left: 240px;
+}
+
+.line {
+    height: 25px;
+    min-width: 700px;
+    margin: 0 auto 10px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 0 0 10px;
+    position: relative;
+}
+
+.line::before{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    background: #d2d6d7;
+}
+
+.line::after{
+    content: '';
+    background: #333;
+    height: 25px;
+    transition: 0.8s;
+    display: block;
+    width: 100%;
+    animation: animate 1 4s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.line1::after{
+    max-width: 90%;
+}
+
+.line2::after{
+    max-width: 65%;
+}
+
+.line3::after{
+    max-width: 80%;
+}
+
+.line4::after{
+    max-width: 80%;
+}
+
+.line5::after{
+    max-width: 50%;
+}
+
+.line6::after{
+    max-width: 90%;
+}
+
+.line7::after{
+    max-width: 90%;
+}
+
+.line8::after{
+    max-width: 70%;
+}
+
+.line9::after{
+    max-width: 80%;
+}
+
+.line10::after{
+    max-width: 70%;
+}
+
+.line11::after{
+    max-width: 50%;
+}
+
+.line12::after{
+    max-width: 50%;
+}
+
+.line13::after{
+    max-width: 90%;
+}

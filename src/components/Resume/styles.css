@@ -1,0 +1,49 @@
+.container-resume {
+    display: flex;
+    width: 96%;
+    max-width: 1020px !important;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    padding-right: 10%;
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+}
+
+.container-education {
+    display: flex;
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+    border-bottom: 1px solid #E8E8E8;
+    
+}
+
+.main-education {
+    padding-left: 250px;
+    
+}
+
+.main-education h2 {
+    font-weight: bold;
+}
+
+.container-work {
+    display: flex;
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    padding: 0 45px;
+    min-height: 1px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.main-work {
+    padding-left: 300px;
+}
+
+.work {
+    padding-bottom: 40px;
+}
